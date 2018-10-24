@@ -35,6 +35,7 @@ def apply_clearance(cart)
     if features[:clearance] = true 
       features[:price] = features[:price] * 0.80
     end
+  end
     cart
 end
 
